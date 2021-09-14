@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+    font-family:  'Noto Sans', sans-serif;
+    display:grid ;
+    place-items: center ;
+    margin:5rem;
+    font-size:2rem;
+}
+[type='color']{
+    appearance: none;
+    padding: 0;
+    border: none;
+}
+[type='color']::-ebkit-color-swatch-wrapper{
+    padding: 0;
+}
+[type='color']::-ebkit-color-swatch{
+    border: none;
+}
+#color{
+    cursor: pointer;
+    width: 5rem;
+    height: 3rem;
+   margin:5rem ;
+ box-shadow: 5rem;
+}
